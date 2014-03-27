@@ -1,9 +1,6 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ControlExample.aspx.cs" Inherits="BootstrapControls.ControlExample" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-
-
-
     <div class="row">
         <div class="col-md-6">
             <h2>Bootstrap TextBox</h2>
@@ -40,7 +37,7 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Bootstrap Table</h2>
-            <bootstrap:Table ID="Table1" runat="server" Striped="True" HoverRows="True" Condensed="true" Bordered="true">
+            <bootstrap:Table ID="Table1" runat="server" Striped="True" HoverRows="True" Condensed="true">
                 <asp:TableHeaderRow>
                     <asp:TableHeaderCell>
                         1
@@ -137,5 +134,14 @@
             </asp:Table>
         </div>
     </div>
-
+    <div class="row">
+        <h2>Bootstrap GridView</h2>
+        <bootstrap:GridView ID="BootstrapGridView" runat="server" AutoGenerateColumns="true" Striped="true" HoverRows="true">
+        </bootstrap:GridView>
+    </div>
+    <div class="row">
+        <h2>Standard GridView</h2>
+        <asp:GridView ID="StandardGridView" runat="server" AutoGenerateColumns="true">
+        </asp:GridView>
+    </div>
 </asp:Content>
