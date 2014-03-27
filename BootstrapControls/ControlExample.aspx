@@ -37,4 +37,105 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-md-6">
+            <h2>Bootstrap Table</h2>
+            <bootstrap:Table ID="Table1" runat="server" Striped="True" HoverRows="True" Condensed="true" Bordered="true">
+                <asp:TableHeaderRow>
+                    <asp:TableHeaderCell>
+                        1
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        2
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        3
+                    </asp:TableHeaderCell>
+                </asp:TableHeaderRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                </asp:TableRow>
+            </bootstrap:Table>
+        </div>
+        <div class="col-md-6">
+            <h2>Standard Table</h2>
+            <asp:Table ID="StandardTable1" runat="server">
+                <asp:TableHeaderRow>
+                    <asp:TableHeaderCell>
+                        1
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        2
+                    </asp:TableHeaderCell>
+                    <asp:TableHeaderCell>
+                        3
+                    </asp:TableHeaderCell>
+                </asp:TableHeaderRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                </asp:TableRow>
+                <asp:TableRow>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                    <asp:TableCell>
+                        Value
+                    </asp:TableCell>
+                </asp:TableRow>
+            </asp:Table>
+        </div>
+    </div>
+
 </asp:Content>
