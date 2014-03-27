@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI;
 
 namespace BootstrapControls.SeverControls.Controls
 {
@@ -15,16 +16,76 @@ namespace BootstrapControls.SeverControls.Controls
         public ButtonType ButtonType { get; set; }
         public ButtonSize ButtonSize { get; set; }
         public bool IsBlock { get; set; }
+        public Glyphicons Glyphicon { get; set; }
+        public GlyphiconPosition GlyphiconPosition { get; set; }
+
+        protected override string TagName
+        {
+            get
+            {
+                return "button";
+            }
+        }
+
+        protected override HtmlTextWriterTag TagKey
+        {
+            get
+            {
+                return HtmlTextWriterTag.Button;
+            }
+        }
 
         #endregion
 
         #region Control Events
+
+        protected override void OnPreRender(EventArgs e)
+        {
+            base.OnPreRender(e);
+
+            if (GlyphiconPosition == SeverControls.GlyphiconPosition.Left)
+            {
+                AddGlyphicon();
+            }
+
+            // Adds the text of the button
+            var literal = new LiteralControl(this.Text);
+            Controls.Add(literal);
+
+            if (GlyphiconPosition == SeverControls.GlyphiconPosition.Right)
+            {
+                AddGlyphicon();
+            }
+        }
+
+        private void AddGlyphicon()
+        {
+            // Adds the glyphicon
+            var glyphiconTemplate = "<span class=\"glyphicon glyphicon-{0}\"></span>";
+            
+            if (GlyphiconPosition == GlyphiconPosition.Left)
+            {
+                glyphiconTemplate = glyphiconTemplate + "&nbsp;";
+            }
+            else
+            {
+                glyphiconTemplate = "&nbsp;" + glyphiconTemplate;
+            }
+
+            var glyphiconSpan = new LiteralControl(String.Format(glyphiconTemplate, Glyphicon.ToString().ToLower()));
+            Controls.Add(glyphiconSpan);
+        }
 
         protected override void Render(System.Web.UI.HtmlTextWriter writer)
         {
             base.CssClass = GetCssClass();
 
             base.Render(writer);
+        }
+
+        protected override void RenderContents(HtmlTextWriter writer)
+        {
+            RenderChildren(writer);
         }
 
         #endregion

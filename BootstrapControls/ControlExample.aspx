@@ -16,8 +16,9 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Bootstrap Button</h2>
-            <bootstrap:Button ID="Button1" runat="server" ButtonType="Default" Text="Bootstrap"></bootstrap:Button>
-            <bootstrap:Button ID="Button2" runat="server" ButtonType="Primary" Text="Bootstrap"></bootstrap:Button>
+            <bootstrap:Button ID="Button1" runat="server" ButtonType="Default" Text="Bootstrap" Glyphicon="Plus" GlyphiconPosition="Right">
+            </bootstrap:Button>
+            <bootstrap:Button ID="Button2" runat="server" ButtonType="Primary" Text="Bootstrap" Glyphicon="Euro"></bootstrap:Button>
             <bootstrap:Button ID="Button3" runat="server" ButtonType="Success" Text="Bootstrap"></bootstrap:Button>
             <bootstrap:Button ID="Button4" runat="server" ButtonType="Info" Text="Bootstrap"></bootstrap:Button>
             <bootstrap:Button ID="Button5" runat="server" ButtonType="Warning" Text="Bootstrap"></bootstrap:Button>
