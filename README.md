@@ -24,7 +24,7 @@ Table
 Property  | Description
 ------------- | -------------
 Striped  | Gets or sets the value for whether the table has the striped style. Corresponds to the [*table-striped*](http://getbootstrap.com/css/#tables-striped) CSS class
-Bordered  | Gets or sets the value for whether the table has the borered style. Corresponds to the [*table-bordered*](http://getbootstrap.com/css/#tables-bordered) CSS class
+Bordered  | Gets or sets the value for whether the table has the bordered style. Corresponds to the [*table-bordered*](http://getbootstrap.com/css/#tables-bordered) CSS class
 HoverRows  | Gets or sets the value for whether the table rows have a hover state. Corresponds to the [*table-hover*](http://getbootstrap.com/css/#tables-hover-rows) CSS class
 Condensed  | Gets or sets the value for whether the table rows are compacted. Corresponds to the [*table-condensed*](http://getbootstrap.com/css/#tables-condensed) CSS class
 
@@ -35,4 +35,22 @@ Condensed  | Gets or sets the value for whether the table rows are compacted. Co
     Condensed="True|False" 
     Bordered="True|False">
 </bootstrap:Table>
+```
+
+GridView
+--------
+Property  | Description
+------------- | -------------
+Striped  | Gets or sets the value for whether the table has the striped style. Corresponds to the [*table-striped*](http://getbootstrap.com/css/#tables-striped) CSS class
+Bordered  | Gets or sets the value for whether the table has the bordered style. Corresponds to the [*table-bordered*](http://getbootstrap.com/css/#tables-bordered) CSS class
+HoverRows  | Gets or sets the value for whether the table rows have a hover state. Corresponds to the [*table-hover*](http://getbootstrap.com/css/#tables-hover-rows) CSS class
+Condensed  | Gets or sets the value for whether the table rows are compacted. Corresponds to the [*table-condensed*](http://getbootstrap.com/css/#tables-condensed) CSS class
+
+``` html
+<bootstrap:GridView
+    Striped="True|False" 
+    HoverRows="True|False"
+    Bordered="True|False"
+    Condensed="True|False">
+</bootstrap:GridView>
 ```
