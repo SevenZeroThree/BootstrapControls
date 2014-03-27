@@ -15,7 +15,8 @@ ButtonSize  | Gets or sets the value for the size of the button. Corresponds to 
 ``` html
 <bootstrap:Button 
     ButtonType="Default|Primary|Success|Info|Warning|Danger|Link"
-    ButtonSize="Default|Large|Small|ExtraSmall"></bootstrap:Button>
+    ButtonSize="Default|Large|Small|ExtraSmall">
+</bootstrap:Button>
 ```
 
 Table
@@ -33,4 +34,5 @@ Condensed  | Gets or sets the value for whether the table rows are compacted. Co
     HoverRows="True|False" 
     Condensed="True|False" 
     Bordered="True|False">
+</bootstrap:Table>
 ```
