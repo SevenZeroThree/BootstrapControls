@@ -7,6 +7,10 @@ Automatically adds standard css classes and exposes properties to allow for easy
 
 Buttons
 ----------
+Property  | Description
+------------- | -------------
+ButtonType  | Gets or sets the value for the kind of button. Corresponds directly to the standard [bootstrap button options](http://getbootstrap.com/css/#buttons-options)
+ButtonSize  | Gets or sets the value for the size of the button. Corresponds to the [bootstrap button sizes](http://getbootstrap.com/css/#buttons-sizes)
 ``` html
 <bootstrap:Button 
     ButtonType="Default|Primary|Success|Info|Warning|Danger|Link"
