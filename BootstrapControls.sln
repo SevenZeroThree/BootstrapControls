@@ -18,6 +18,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapControls.MVC", "Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapControls.MVC.Samples", "BootstrapControls.MVC.Samples\BootstrapControls.MVC.Samples.csproj", "{1AC908D8-E2A4-409B-9A2D-50040A68395F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Forms", "Web Forms", "{A995644C-72E0-4EA5-977C-4C218C07C8E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{59FF53D1-C072-42AD-B6D2-AC9553FE186F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8F689DAB-721E-44F1-9EB8-5DFF0A0DC90C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,5 +53,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AF09463-F4D2-4C12-9C78-0088D900F582} = {A995644C-72E0-4EA5-977C-4C218C07C8E2}
+		{CDC4C81B-653A-4F41-942D-2703E810BEF2} = {59FF53D1-C072-42AD-B6D2-AC9553FE186F}
+		{1AC908D8-E2A4-409B-9A2D-50040A68395F} = {59FF53D1-C072-42AD-B6D2-AC9553FE186F}
+		{37E405A3-0FCE-47DC-918B-CA7804C1CFC9} = {8F689DAB-721E-44F1-9EB8-5DFF0A0DC90C}
 	EndGlobalSection
 EndGlobal
