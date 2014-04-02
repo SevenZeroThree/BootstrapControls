@@ -1,0 +1,13 @@
+﻿@using BootstrapControls.Extensions.Html;
+
+@{
+    ViewBag.Title = "TextBox";
+}
+
+<h2>TextBox</h2>
+
+<div class="row">
+    @Html.BootstrapTextBox("Default Size")
+    @Html.BootstrapTextBox("Small Size", BootstrapControls.Core.Enums.TextBoxSize.Small)
+    @Html.BootstrapTextBox("Large Size", BootstrapControls.Core.Enums.TextBoxSize.Large)
+</div>

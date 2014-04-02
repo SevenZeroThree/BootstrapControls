@@ -1,0 +1,14 @@
+﻿@using BootstrapControls.Extensions.Html;
+
+
+@{
+    ViewBag.Title = "Button";
+}
+
+<h2>Button</h2>
+
+<div class="row">
+    @Html.BootstrapButton("Default")
+    @Html.BootstrapButton("Danger", BootstrapControls.Core.Enums.ButtonType.Danger)
+</div>
+
