@@ -1,4 +1,4 @@
-﻿@using BootstrapControls.Extensions.HtmlHelperExtensions;
+﻿@using BootstrapControls.MVC.HtmlHelperExtensions;
 
 
 @{
@@ -8,7 +8,14 @@
 <h2>Button</h2>
 
 <div class="row">
+    <h3>Type</h3>
     @Html.BootstrapButton("Default")
     @Html.BootstrapButton("Danger", BootstrapControls.Core.Enums.ButtonType.Danger)
+</div>
+
+<div class="row">
+    <h3>Glyphicons</h3>
+    @Html.BootstrapButton("Move", BootstrapControls.Core.Glyphicon.MOVE)
+    @Html.BootstrapButton("Magnet", BootstrapControls.Core.Glyphicon.MAGNET)
 </div>
 

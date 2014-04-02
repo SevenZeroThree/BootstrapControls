@@ -42,28 +42,19 @@
     <Compile Include="Enums\ButtonEnums.cs" />
     <Compile Include="Enums\GlyphiconEnums.cs" />
     <Compile Include="Enums\TextBoxEnums.cs" />
-    <Compile Include="Glyphicons\GlyphiconEnums.cs">
-      <DependentUpon>GlyphiconEnums.tt</DependentUpon>
+    <Compile Include="Glyphicons\Glyphicon.cs">
+      <DependentUpon>Glyphicon.tt</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="Helpers\ButtonHelper.cs" />
     <Compile Include="Helpers\TextBoxHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Glyphicons\GlyphiconConstants.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>GlyphiconConstants.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Glyphicons\GlyphiconEnums.tt">
+    <None Include="Glyphicons\Glyphicon.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>GlyphiconEnums.cs</LastGenOutput>
-    </None>
-    <None Include="Glyphicons\GlyphiconConstants.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>GlyphiconConstants.cs</LastGenOutput>
+      <LastGenOutput>Glyphicon.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>

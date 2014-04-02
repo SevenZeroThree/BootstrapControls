@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Mvc;
 
-namespace BootstrapControls.Extensions.HtmlHelperExtensions
+namespace BootstrapControls.MVC.HtmlHelperExtensions
 {
     public static class TextBox
     {
