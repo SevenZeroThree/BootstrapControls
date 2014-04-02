@@ -1,5 +1,6 @@
 ﻿@using BootstrapControls.MVC.HtmlHelperExtensions;
 @using BootstrapControls.Core.Fonts;
+@using BootstrapControls.Core.Enums;
 
 
 @{
@@ -10,13 +11,33 @@
 
 <div class="row">
     <h3>Type</h3>
-    @Html.BootstrapButton("Default")
-    @Html.BootstrapButton("Danger", BootstrapControls.Core.Enums.ButtonType.Danger)
+    <p>
+        @Html.BootstrapButton("Default")
+        <code>
+            @@Html.BootstrapButton("Default")
+        </code>
+    </p>
+    <p>
+        @Html.BootstrapButton("Danger", ButtonType.Danger)
+        <code>
+            @@Html.BootstrapButton("Danger", ButtonType.Danger)
+        </code>
+    </p>
 </div>
 
 <div class="row">
     <h3>Glyphicons</h3>
-    @Html.BootstrapButton("Move", Glyphicon.MOVE)
-    @Html.BootstrapButton("Magnet", Glyphicon.MAGNET)
+    <p>
+        @Html.BootstrapButton("PLUS", Glyphicon.PLUS)
+        <code>
+            @@Html.BootstrapButton("PLUS", Glyphicon.PLUS)
+        </code>
+    </p>
+    <p>
+        @Html.BootstrapButton("PENCIL", Glyphicon.PENCIL)
+        <code>
+            @@Html.BootstrapButton("PENCIL", Glyphicon.PENCIL)
+        </code>
+    </p>
 </div>
 
