@@ -5,6 +5,19 @@ A proof of concept for an ASP.NET control suite that utilizes Twitter Bootstrap
 
 Automatically adds standard css classes and exposes properties to allow for easy additions of common bootstrap classes
 
+MVC
+===
+Button
+---
+``` html
+@Html.BootstrapButton("Default")
+@Html.BootstrapButton("Danger", ButtonType.Danger)
+@Html.BootstrapButton("PLUS", Glyphicon.PLUS)
+```
+
+Web Forms
+=======
+
 Button
 ----------
 Property  | Description
