@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Bootstrapcontrols : A proof of concept for an ASP.NET control suite that utilizes Twitter Bootstrap" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Bootstrapcontrols</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/sevenzerothree/BootstrapControls">View on GitHub</a>
+
+          <h1 id="project_title">Bootstrapcontrols</h1>
+          <h2 id="project_tagline">A proof of concept for an ASP.NET control suite that utilizes Twitter Bootstrap</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/sevenzerothree/BootstrapControls/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/sevenzerothree/BootstrapControls/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="bootstrapcontrols" class="anchor" href="#bootstrapcontrols"><span class="octicon octicon-link"></span></a>BootstrapControls</h1>
+
+<p>A proof of concept for an ASP.NET control suite that utilizes Twitter Bootstrap</p>
+
+<p>Automatically adds standard css classes and exposes properties to allow for easy additions of common bootstrap classes</p>
+
+<h2>
+<a name="button" class="anchor" href="#button"><span class="octicon octicon-link"></span></a>Button</h2>
+
+<table>
+<thead><tr>
+<th>Property</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>ButtonType</td>
+<td>Gets or sets the value for the kind of button. Corresponds directly to the standard <a href="http://getbootstrap.com/css/#buttons-options">bootstrap button options</a>
+</td>
+</tr>
+<tr>
+<td>ButtonSize</td>
+<td>Gets or sets the value for the size of the button. Corresponds to the <a href="http://getbootstrap.com/css/#buttons-sizes">bootstrap button sizes</a>
+</td>
+</tr>
+</tbody>
+</table><div class="highlight highlight-html"><pre><span class="nt">&lt;bootstrap:Button</span> 
+    <span class="na">ButtonType=</span><span class="s">"Default|Primary|Success|Info|Warning|Danger|Link"</span>
+    <span class="na">ButtonSize=</span><span class="s">"Default|Large|Small|ExtraSmall"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/bootstrap:Button&gt;</span>
+</pre></div>
+
+<h2>
+<a name="table" class="anchor" href="#table"><span class="octicon octicon-link"></span></a>Table</h2>
+
+<table>
+<thead><tr>
+<th>Property</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Striped</td>
+<td>Gets or sets the value for whether the table has the striped style. Corresponds to the <a href="http://getbootstrap.com/css/#tables-striped"><em>table-striped</em></a> CSS class</td>
+</tr>
+<tr>
+<td>Bordered</td>
+<td>Gets or sets the value for whether the table has the bordered style. Corresponds to the <a href="http://getbootstrap.com/css/#tables-bordered"><em>table-bordered</em></a> CSS class</td>
+</tr>
+<tr>
+<td>HoverRows</td>
+<td>Gets or sets the value for whether the table rows have a hover state. Corresponds to the <a href="http://getbootstrap.com/css/#tables-hover-rows"><em>table-hover</em></a> CSS class</td>
+</tr>
+<tr>
+<td>Condensed</td>
+<td>Gets or sets the value for whether the table rows are compacted. Corresponds to the <a href="http://getbootstrap.com/css/#tables-condensed"><em>table-condensed</em></a> CSS class</td>
+</tr>
+</tbody>
+</table><div class="highlight highlight-html"><pre><span class="nt">&lt;bootstrap:Table</span>
+    <span class="na">Striped=</span><span class="s">"True|False"</span> 
+    <span class="na">HoverRows=</span><span class="s">"True|False"</span> 
+    <span class="na">Condensed=</span><span class="s">"True|False"</span> 
+    <span class="na">Bordered=</span><span class="s">"True|False"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/bootstrap:Table&gt;</span>
+</pre></div>
+
+<h2>
+<a name="gridview" class="anchor" href="#gridview"><span class="octicon octicon-link"></span></a>GridView</h2>
+
+<table>
+<thead><tr>
+<th>Property</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>Striped</td>
+<td>Gets or sets the value for whether the table has the striped style. Corresponds to the <a href="http://getbootstrap.com/css/#tables-striped"><em>table-striped</em></a> CSS class</td>
+</tr>
+<tr>
+<td>Bordered</td>
+<td>Gets or sets the value for whether the table has the bordered style. Corresponds to the <a href="http://getbootstrap.com/css/#tables-bordered"><em>table-bordered</em></a> CSS class</td>
+</tr>
+<tr>
+<td>HoverRows</td>
+<td>Gets or sets the value for whether the table rows have a hover state. Corresponds to the <a href="http://getbootstrap.com/css/#tables-hover-rows"><em>table-hover</em></a> CSS class</td>
+</tr>
+<tr>
+<td>Condensed</td>
+<td>Gets or sets the value for whether the table rows are compacted. Corresponds to the <a href="http://getbootstrap.com/css/#tables-condensed"><em>table-condensed</em></a> CSS class</td>
+</tr>
+</tbody>
+</table><div class="highlight highlight-html"><pre><span class="nt">&lt;bootstrap:GridView</span>
+    <span class="na">Striped=</span><span class="s">"True|False"</span> 
+    <span class="na">HoverRows=</span><span class="s">"True|False"</span>
+    <span class="na">Bordered=</span><span class="s">"True|False"</span>
+    <span class="na">Condensed=</span><span class="s">"True|False"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/bootstrap:GridView&gt;</span>
+</pre></div>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Bootstrapcontrols maintained by <a href="https://github.com/sevenzerothree">sevenzerothree</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
