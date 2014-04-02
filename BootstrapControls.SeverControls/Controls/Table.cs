@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace BootstrapControls.SeverControls.Controls
+namespace BootstrapControls.WebForms.Controls
 {
     public class Table : System.Web.UI.WebControls.Table
     {

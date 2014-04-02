@@ -16,8 +16,7 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Bootstrap Button</h2>
-            <bootstrap:Button ID="Button1" runat="server" ButtonType="Default" Text="Bootstrap" Glyphicon="Plus" GlyphiconPosition="Right">
-            </bootstrap:Button>
+            <bootstrap:Button ID="Button1" runat="server" ButtonType="Default" Text="Bootstrap" Glyphicon="Plus" GlyphiconPosition="Right"></bootstrap:Button>
             <bootstrap:Button ID="Button2" runat="server" ButtonType="Primary" Text="Bootstrap" Glyphicon="Euro"></bootstrap:Button>
             <bootstrap:Button ID="Button3" runat="server" ButtonType="Success" Text="Bootstrap"></bootstrap:Button>
             <bootstrap:Button ID="Button4" runat="server" ButtonType="Info" Text="Bootstrap"></bootstrap:Button>
@@ -144,5 +143,20 @@
         <h2>Standard GridView</h2>
         <asp:GridView ID="StandardGridView" runat="server" AutoGenerateColumns="true">
         </asp:GridView>
+    </div>
+    <div class="row">
+        <h2>Bootstrap GridView</h2>
+        <bootstrap:TabBar ID="TabBar1" runat="server">
+            <bootstrap:TabItem Name="First">
+                <div class="jumbotron">
+                    <h1>Hello, world!</h1>
+                    <p>...</p>
+                    <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
+                </div>
+            </bootstrap:TabItem>
+            <bootstrap:TabItem Name="Second">
+                <h1>Second Tab Content</h1>
+            </bootstrap:TabItem>
+        </bootstrap:TabBar>
     </div>
 </asp:Content>

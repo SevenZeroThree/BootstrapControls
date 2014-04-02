@@ -334,9 +334,9 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BootstrapControls.SeverControls\BootstrapControls.SeverControls.csproj">
+    <ProjectReference Include="..\BootstrapControls.SeverControls\BootstrapControls.WebForms.csproj">
       <Project>{7af09463-f4d2-4c12-9c78-0088d900f582}</Project>
-      <Name>BootstrapControls.SeverControls</Name>
+      <Name>BootstrapControls.WebForms</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

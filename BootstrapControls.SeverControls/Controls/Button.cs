@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.UI;
 
-namespace BootstrapControls.SeverControls.Controls
+namespace BootstrapControls.WebForms.Controls
 {
     public class Button : System.Web.UI.WebControls.Button
     {
@@ -43,7 +43,7 @@ namespace BootstrapControls.SeverControls.Controls
         {
             base.OnPreRender(e);
 
-            if (GlyphiconPosition == SeverControls.GlyphiconPosition.Left)
+            if (GlyphiconPosition == WebForms.GlyphiconPosition.Left)
             {
                 AddGlyphicon();
             }
@@ -52,7 +52,7 @@ namespace BootstrapControls.SeverControls.Controls
             var literal = new LiteralControl(this.Text);
             Controls.Add(literal);
 
-            if (GlyphiconPosition == SeverControls.GlyphiconPosition.Right)
+            if (GlyphiconPosition == WebForms.GlyphiconPosition.Right)
             {
                 AddGlyphicon();
             }

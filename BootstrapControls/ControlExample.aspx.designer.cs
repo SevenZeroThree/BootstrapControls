@@ -19,7 +19,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.TextBox TextBox1;
+        protected global::BootstrapControls.WebForms.Controls.TextBox TextBox1;
         
         /// <summary>
         /// TextBox2 control.
@@ -28,7 +28,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.TextBox TextBox2;
+        protected global::BootstrapControls.WebForms.Controls.TextBox TextBox2;
         
         /// <summary>
         /// RealTextBox control.
@@ -46,7 +46,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button1;
+        protected global::BootstrapControls.WebForms.Controls.Button Button1;
         
         /// <summary>
         /// Button2 control.
@@ -55,7 +55,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button2;
+        protected global::BootstrapControls.WebForms.Controls.Button Button2;
         
         /// <summary>
         /// Button3 control.
@@ -64,7 +64,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button3;
+        protected global::BootstrapControls.WebForms.Controls.Button Button3;
         
         /// <summary>
         /// Button4 control.
@@ -73,7 +73,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button4;
+        protected global::BootstrapControls.WebForms.Controls.Button Button4;
         
         /// <summary>
         /// Button5 control.
@@ -82,7 +82,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button5;
+        protected global::BootstrapControls.WebForms.Controls.Button Button5;
         
         /// <summary>
         /// Button6 control.
@@ -91,7 +91,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button6;
+        protected global::BootstrapControls.WebForms.Controls.Button Button6;
         
         /// <summary>
         /// Button7 control.
@@ -100,7 +100,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button7;
+        protected global::BootstrapControls.WebForms.Controls.Button Button7;
         
         /// <summary>
         /// Button8 control.
@@ -109,7 +109,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button8;
+        protected global::BootstrapControls.WebForms.Controls.Button Button8;
         
         /// <summary>
         /// Button10 control.
@@ -118,7 +118,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button10;
+        protected global::BootstrapControls.WebForms.Controls.Button Button10;
         
         /// <summary>
         /// Button9 control.
@@ -127,7 +127,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Button Button9;
+        protected global::BootstrapControls.WebForms.Controls.Button Button9;
         
         /// <summary>
         /// StandardButton control.
@@ -145,7 +145,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.Table Table1;
+        protected global::BootstrapControls.WebForms.Controls.Table Table1;
         
         /// <summary>
         /// StandardTable1 control.
@@ -163,7 +163,7 @@ namespace BootstrapControls {
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::BootstrapControls.SeverControls.Controls.GridView BootstrapGridView;
+        protected global::BootstrapControls.WebForms.Controls.GridView BootstrapGridView;
         
         /// <summary>
         /// StandardGridView control.
@@ -173,5 +173,14 @@ namespace BootstrapControls {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.GridView StandardGridView;
+        
+        /// <summary>
+        /// TabBar1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::BootstrapControls.WebForms.Controls.TabBar TabBar1;
     }
 }

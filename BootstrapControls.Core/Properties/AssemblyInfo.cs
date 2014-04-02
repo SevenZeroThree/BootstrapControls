@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("BootstrapControls.WebForms")]
+[assembly: AssemblyTitle("BootstrapControls.Core")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("BootstrapControls.WebForms")]
+[assembly: AssemblyProduct("BootstrapControls.Core")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d3c10c89-c0ec-4019-b5a6-bfae28165383")]
+[assembly: Guid("5bd8853b-f036-48a4-b3ca-58b9a0346dbb")]
 
 // Version information for an assembly consists of the following four values:
 //
