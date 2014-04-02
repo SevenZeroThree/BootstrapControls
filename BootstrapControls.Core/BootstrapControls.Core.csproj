@@ -42,26 +42,27 @@
     <Compile Include="Enums\ButtonEnums.cs" />
     <Compile Include="Enums\GlyphiconEnums.cs" />
     <Compile Include="Enums\TextBoxEnums.cs" />
-    <Compile Include="FontAwesome\FontAwesome.cs">
+    <Compile Include="Fonts\FontAwesome\FontAwesome.cs">
       <DependentUpon>FontAwesome.tt</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Glyphicons\Glyphicon.cs">
+    <Compile Include="Fonts\Glyphicons\Glyphicon.cs">
       <DependentUpon>Glyphicon.tt</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="Fonts\IFontIcon.cs" />
     <Compile Include="Helpers\ButtonHelper.cs" />
     <Compile Include="Helpers\TextBoxHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="FontAwesome\FontAwesome.tt">
+    <None Include="Fonts\FontAwesome\FontAwesome.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>FontAwesome.cs</LastGenOutput>
     </None>
-    <None Include="Glyphicons\Glyphicon.tt">
+    <None Include="Fonts\Glyphicons\Glyphicon.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Glyphicon.cs</LastGenOutput>
     </None>
@@ -70,8 +71,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="FontAwesome\font-awesome.txt" />
-    <Content Include="Glyphicons\glyphicons.txt" />
+    <Content Include="Fonts\FontAwesome\font-awesome.txt" />
+    <Content Include="Fonts\Glyphicons\glyphicons.txt" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Constants\" />

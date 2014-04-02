@@ -1,5 +1,6 @@
 ﻿using BootstrapControls.Core;
 using BootstrapControls.Core.Enums;
+using BootstrapControls.Core.Fonts;
 using BootstrapControls.Core.Helpers;
 using System;
 using System.Collections.Generic;

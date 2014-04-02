@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BootstrapControls.Core.Fonts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,7 +10,7 @@ namespace BootstrapControls.MVC.HtmlHelperExtensions
 {
     public static class GlyphiconHtmlExtensions
     {
-        public static string Glyphicon(this HtmlHelper helper, BootstrapControls.Core.Glyphicon icon)
+        public static string Glyphicon(this HtmlHelper helper, IFontIcon icon)
         {
             var builder = new TagBuilder("i");
             builder.AddCssClass(icon.ToString());
