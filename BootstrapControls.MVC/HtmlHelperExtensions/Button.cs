@@ -8,84 +8,84 @@ using System.Web.Mvc;
 
 namespace BootstrapControls.MVC.HtmlHelperExtensions
 {
-    public static class Button
+    public static class ButtonHelpers
     {
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper)
         {
-            return helper.BootstrapButton(String.Empty);
+            return helper.Button(String.Empty);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, Glyphicon icon)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, Glyphicon icon)
         {
-            return helper.BootstrapButton(String.Empty, ButtonType.Default, ButtonSize.Default, icon, null);
+            return helper.Button(String.Empty, ButtonType.Default, ButtonSize.Default, icon, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value)
         {
-            return helper.BootstrapButton(value, ButtonType.Default, ButtonSize.Default);
+            return helper.Button(value, ButtonType.Default, ButtonSize.Default);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, Glyphicon icon)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, Glyphicon icon)
         {
-            return helper.BootstrapButton(value, ButtonType.Default, ButtonSize.Default, icon, null);
+            return helper.Button(value, ButtonType.Default, ButtonSize.Default, icon, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonType type)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonType type)
         {
-            return helper.BootstrapButton(value, type, ButtonSize.Default);
+            return helper.Button(value, type, ButtonSize.Default);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonType type, Glyphicon icon)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonType type, Glyphicon icon)
         {
-            return helper.BootstrapButton(value, type, ButtonSize.Default, icon, null);
+            return helper.Button(value, type, ButtonSize.Default, icon, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonSize size)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonSize size)
         {
-            return helper.BootstrapButton(value, ButtonType.Default, size);
+            return helper.Button(value, ButtonType.Default, size);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonSize size, Glyphicon icon)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonSize size, Glyphicon icon)
         {
-            return helper.BootstrapButton(value, ButtonType.Default, size, icon, null);
+            return helper.Button(value, ButtonType.Default, size, icon, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, ButtonType type)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, ButtonType type)
         {
-            return helper.BootstrapButton(String.Empty, type, ButtonSize.Default);
+            return helper.Button(String.Empty, type, ButtonSize.Default);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, ButtonType type, Glyphicon icon)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, ButtonType type, Glyphicon icon)
         {
-            return helper.BootstrapButton(String.Empty, type, ButtonSize.Default, icon, null);
+            return helper.Button(String.Empty, type, ButtonSize.Default, icon, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, ButtonSize size)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, ButtonSize size)
         {
-            return helper.BootstrapButton(String.Empty, ButtonType.Default, size);
+            return helper.Button(String.Empty, ButtonType.Default, size);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, ButtonSize size, Glyphicon icon)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, ButtonSize size, Glyphicon icon)
         {
-            return helper.BootstrapButton(String.Empty, ButtonType.Default, size, icon, null);
+            return helper.Button(String.Empty, ButtonType.Default, size, icon, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonType type, ButtonSize size)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonType type, ButtonSize size)
         {
-            return helper.BootstrapButton(value, type, size, Glyphicon.NONE);
+            return helper.Button(value, type, size, Glyphicon.NONE);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonType type, ButtonSize size, Glyphicon icon)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonType type, ButtonSize size, Glyphicon icon)
         {
-            return helper.BootstrapButton(value, type, size, icon, null);
+            return helper.Button(value, type, size, icon, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonType type, ButtonSize size, object htmlAttributes)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonType type, ButtonSize size, object htmlAttributes)
         {
-            return helper.BootstrapButton(value, type, size, Glyphicon.NONE, null);
+            return helper.Button(value, type, size, Glyphicon.NONE, null);
         }
 
-        public static MvcHtmlString BootstrapButton(this HtmlHelper helper, string value, ButtonType type, ButtonSize size, Glyphicon icon, object htmlAttributes)
+        public static MvcHtmlString Button(this BootstrapHtmlHelper helper, string value, ButtonType type, ButtonSize size, Glyphicon icon, object htmlAttributes)
         {
             var builder = new TagBuilder("button");
             var attributes = HtmlHelper.AnonymousObjectToHtmlAttributes(htmlAttributes) as IDictionary<string, object>;

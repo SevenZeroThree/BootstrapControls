@@ -10,7 +10,7 @@ namespace BootstrapControls.MVC.HtmlHelperExtensions
 {
     public static class GlyphiconHtmlExtensions
     {
-        public static string Glyphicon(this HtmlHelper helper, IFontIcon icon)
+        public static string Glyphicon(this BootstrapHtmlHelper helper, IFontIcon icon)
         {
             var builder = new TagBuilder("i");
             builder.AddCssClass(icon.ToString());

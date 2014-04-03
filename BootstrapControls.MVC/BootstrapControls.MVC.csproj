@@ -68,6 +68,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bootstrap.cs" />
+    <Compile Include="BootstrapWebViewPage.cs" />
     <Compile Include="HtmlHelperExtensions\Button.cs" />
     <Compile Include="HtmlHelperExtensions\Glyphicon.cs" />
     <Compile Include="HtmlHelperExtensions\TextBox.cs" />
