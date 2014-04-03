@@ -72,6 +72,7 @@
     <Compile Include="BootstrapWebViewPage.cs" />
     <Compile Include="HtmlHelperExtensions\Button.cs" />
     <Compile Include="HtmlHelperExtensions\Glyphicon.cs" />
+    <Compile Include="HtmlHelperExtensions\InputGroup.cs" />
     <Compile Include="HtmlHelperExtensions\TextBox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

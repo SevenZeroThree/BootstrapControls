@@ -9,24 +9,24 @@ using System.Web.Mvc;
 
 namespace BootstrapControls.MVC.HtmlHelperExtensions
 {
-    public static class TextBox
+    public static class TextBoxHelpers
     {
-        public static MvcHtmlString BootstrapTextBox(this HtmlHelper helper)
+        public static MvcHtmlString TextBox(this BootstrapHtmlHelper helper)
         {
-            return helper.BootstrapTextBox(String.Empty);
+            return helper.TextBox(String.Empty);
         }
 
-        public static MvcHtmlString BootstrapTextBox(this HtmlHelper helper, string placeholder)
+        public static MvcHtmlString TextBox(this BootstrapHtmlHelper helper, string placeholder)
         {
-            return helper.BootstrapTextBox(placeholder, TextBoxSize.Default);
+            return helper.TextBox(placeholder, TextBoxSize.Default);
         }
 
-        public static MvcHtmlString BootstrapTextBox(this HtmlHelper helper, string placeholder, TextBoxSize size)
+        public static MvcHtmlString TextBox(this BootstrapHtmlHelper helper, string placeholder, TextBoxSize size)
         {
-            return helper.BootstrapTextBox(placeholder, size, null);
+            return helper.TextBox(placeholder, size, null);
         }
 
-        public static MvcHtmlString BootstrapTextBox(this HtmlHelper helper, string placeholder, TextBoxSize size, object htmlAttributes)
+        public static MvcHtmlString TextBox(this BootstrapHtmlHelper helper, string placeholder, TextBoxSize size, object htmlAttributes)
         {
             var builder = new TagBuilder("input");
             var attributes = HtmlHelper.AnonymousObjectToHtmlAttributes(htmlAttributes) as IDictionary<string, object>;

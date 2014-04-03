@@ -1,13 +1,43 @@
-﻿@using BootstrapControls.Extensions.HtmlHelperExtensions;
-
-@{
+﻿@{
     ViewBag.Title = "TextBox";
 }
 
 <h2>TextBox</h2>
 
 <div class="row">
-    @Html.BootstrapTextBox("Default Size")
-    @Html.BootstrapTextBox("Small Size", BootstrapControls.Core.Enums.TextBoxSize.Small)
-    @Html.BootstrapTextBox("Large Size", BootstrapControls.Core.Enums.TextBoxSize.Large)
+    <h3>Size</h3>
+    <div class="form-group">
+        @Bootstrap.TextBox("Default Size")
+        <code>
+            @@Bootstrap.TextBox("Default Size")
+        </code>
+    </div>
+    <div class="form-group">
+        @Bootstrap.TextBox("Small Size", BootstrapControls.Core.Enums.TextBoxSize.Small)
+        <code>
+            @@Bootstrap.TextBox("Small Size", BootstrapControls.Core.Enums.TextBoxSize.Small)
+        </code>
+    </div>
+    <div class="form-group">
+        @Bootstrap.TextBox("Large Size", BootstrapControls.Core.Enums.TextBoxSize.Large)
+        <code>
+            @@Bootstrap.TextBox("Large Size", BootstrapControls.Core.Enums.TextBoxSize.Large)
+        </code>
+    </div>
+</div>
+
+<div class="row">
+    <h3>Input Group</h3>
+    <div class="form-group">
+        @Bootstrap.TextBoxInputGroup("Text Addon", "@")
+        <code>
+            @@Bootstrap.TextBoxInputGroup("Text Addon", "@@")
+        </code>
+    </div>
+    <div class="form-group">
+        @Bootstrap.TextBoxInputGroup("Glyphicon Addon", BootstrapControls.Core.Fonts.Glyphicon.PLUS)
+        <code>
+            @@Bootstrap.TextBoxInputGroup("Glyphicon Addon", BootstrapControls.Core.Fonts.Glyphicon.PLUS)
+        </code>
+    </div>
 </div>
