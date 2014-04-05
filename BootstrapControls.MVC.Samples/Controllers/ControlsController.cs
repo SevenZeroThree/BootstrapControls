@@ -19,5 +19,10 @@ namespace BootstrapControls.MVC.Samples.Controllers
         {
             return View();
         }
+
+        public ActionResult Other()
+        {
+            return View();
+        }
 	}
 }
