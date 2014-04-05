@@ -242,6 +242,7 @@
     <Content Include="Views\Controls\Button.cshtml" />
     <Content Include="Views\Controls\TextBox.cshtml" />
     <Content Include="Views\Controls\Other.cshtml" />
+    <Content Include="Views\Controls\Navbar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
